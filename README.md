@@ -7,7 +7,11 @@
 
 An Anki deck generator workspace for Brazil's `DDD` telephone area codes, with an emphasis on map-based recognition cards and reproducible media generation.
 
-![Brazil DDD card preview](docs/screenshots/readme-preview.png)
+![Recall DDD 68 from a blank municipal map](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-01.png)
+
+![Reveal the DDD 68 coverage area](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-02.png)
+
+[Browse both card templates on Ritornello](https://ritornello.dev/#brazilian-ddd-codes)
 
 ## Download
 

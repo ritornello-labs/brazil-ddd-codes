@@ -16,6 +16,7 @@ SIDE_ENV = "ANKI_README_SCREENSHOT_SIDE"
 WIDTH_ENV = "ANKI_README_SCREENSHOT_WIDTH"
 HEIGHT_ENV = "ANKI_README_SCREENSHOT_HEIGHT"
 TEMPLATE_ENV = "ANKI_README_SCREENSHOT_TEMPLATE"
+DDD_ENV = "ANKI_README_SCREENSHOT_DDD"
 
 
 PROBE_SOURCE = r'''
@@ -37,6 +38,7 @@ SIDE_ENV = "ANKI_README_SCREENSHOT_SIDE"
 WIDTH_ENV = "ANKI_README_SCREENSHOT_WIDTH"
 HEIGHT_ENV = "ANKI_README_SCREENSHOT_HEIGHT"
 TEMPLATE_ENV = "ANKI_README_SCREENSHOT_TEMPLATE"
+DDD_ENV = "ANKI_README_SCREENSHOT_DDD"
 SETTLE_MS = 1800
 PREVIEW_WINDOW = None
 
@@ -57,11 +59,16 @@ def _pick_card():
         raise RuntimeError("collection is unavailable")
 
     desired_template = os.environ.get(TEMPLATE_ENV, "").strip()
+    desired_ddd = os.environ.get(DDD_ENV, "").strip()
     best = None
     for card_id in col.db.list("select id from cards order by id"):
         card = col.get_card(card_id)
         template_name = _card_template_name(card)
         if desired_template and template_name != desired_template:
+            continue
+        note = card.note()
+        ddd_code = str(note["ddd_code"]).strip()
+        if desired_ddd and ddd_code != desired_ddd:
             continue
         question = card.question()
         answer = card.answer()
@@ -78,6 +85,11 @@ def _pick_card():
             best = candidate
 
     if best is None:
+        if desired_ddd:
+            raise RuntimeError(
+                f"no cards found for DDD {desired_ddd!r}"
+                + (f" and template {desired_template!r}" if desired_template else "")
+            )
         if desired_template:
             raise RuntimeError(f"no cards found for template {desired_template!r}")
         raise RuntimeError("no cards found in collection")
@@ -136,6 +148,7 @@ def _capture(card):
             "note_id": int(card.nid),
             "template_ord": int(card.ord),
             "template": _card_template_name(card),
+            "ddd_code": str(card.note()["ddd_code"]).strip(),
             "size": {"width": int(pixmap.width()), "height": int(pixmap.height())},
         }
     )
@@ -242,6 +255,10 @@ def parse_args() -> argparse.Namespace:
         "--template",
         help="exact card-template name to capture, for example 'Locator -> DDD'",
     )
+    parser.add_argument(
+        "--ddd",
+        help="exact DDD code to capture, for example '68'",
+    )
     return parser.parse_args()
 
 
@@ -274,6 +291,8 @@ def main() -> int:
         }
         if args.template:
             env[TEMPLATE_ENV] = args.template
+        if args.ddd:
+            env[DDD_ENV] = args.ddd
         completed = subprocess.run(command, check=False, text=True, env=env)
     return completed.returncode
 
