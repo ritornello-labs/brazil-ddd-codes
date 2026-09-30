@@ -99,3 +99,5 @@ The source file is licensed under CC BY-SA 4.0 and attributes `João Vitor Bachi
 ## License
 
 Repository code and documentation are MIT licensed. Source maps and reference data keep their upstream licenses and attribution requirements as documented in the data manifests.
+
+Support continued development: [ritornello.dev/support](https://ritornello.dev/support).
