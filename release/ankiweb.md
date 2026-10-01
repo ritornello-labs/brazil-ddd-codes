@@ -4,6 +4,10 @@ tags: brazil geography maps phone-codes ddd
 support_url: https://github.com/ritornello-labs/brazil-ddd-codes
 ---
 
+<img src="https://ritornello.dev/media/brand/listing-banner-v1.png" alt="Ritornello" width="700">
+
+[Explore all Ritornello decks and add-ons](https://ritornello.dev/).
+
 ![Recall DDD 68 from a blank municipal map](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-01.png)
 
 ![Reveal the DDD 68 coverage area](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-02.png)
