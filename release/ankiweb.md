@@ -8,17 +8,15 @@ support_url: https://github.com/ritornello-labs/brazil-ddd-codes
 
 [Explore all Ritornello decks and add-ons](https://ritornello.dev/).
 
-![Recall DDD 68 from a blank municipal map](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-01.png)
+Learn Brazil's [DDD telephone area codes](https://en.wikipedia.org/wiki/Telephone_numbers_in_Brazil#Area_codes) through their geographical coverage.
 
-![Reveal the DDD 68 coverage area](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-02.png)
+**67 notes · 134 cards.** Two recall directions pair each code with its map: start from a code and a blank municipal map, then reveal the covered area; or identify the code from a highlighted coverage map.
 
-![Recall the DDD code from a highlighted area](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-03.png)
+## See it in Anki
 
-![Reveal the code on the reverse template](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-04.png)
+![Recall and reveal the geographical coverage of Brazilian DDD 68](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/map.gif)
 
-Map-based Anki cards for learning Brazil's `DDD` telephone area codes.
-
-The deck starts from a blank Brazil map and asks you to recognize or reveal the highlighted DDD area. The media is generated reproducibly from public source data, with map provenance documented in the GitHub repository.
+The example reveals DDD 68's coverage in Acre. Maps are generated reproducibly from public source data; map provenance and the build workflow are documented in the repository.
 
 GitHub: [https://github.com/ritornello-labs/brazil-ddd-codes](https://github.com/ritornello-labs/brazil-ddd-codes)
 
