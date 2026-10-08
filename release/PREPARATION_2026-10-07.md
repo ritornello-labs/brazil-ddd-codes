@@ -11,10 +11,12 @@ Every listing includes the Ritornello banner, gallery invitation, stable support
 ### Brazilian DDD Codes
 
 - Listing: `release/ankiweb.md`
-- Copy SHA-256: `429af18c72f67c04a6d40e926b241f51ca4462640d61f1ed4b0e913abc10458e`
+- Copy SHA-256: `29576ca8a18fb8f6a1b31b0a8beeacf189bd505ee075d77e29f8ddd6e96dd8d1`
 - Candidate SHA-256: `690b34a2cc4dd1ff2a342eb3e2919fef25e0bbc4a3c0f372517bb4b307e11328`
 - Approval: awaiting approval
 - GIF `brazil-ddd-codes/map.gif`: `8854f70603c868dd646a13cf21389cf1d0301934bfd510ca73e73c8e19276769`
+
+- GIF `brazil-ddd-codes/reverse.gif`: `6161b0147ebb5b7703de11f19aac3680d09123f961ab190c156547a7a4d25e9b`
 
 ## Upload procedure
 
@@ -29,3 +31,7 @@ For add-ons installed directly from GitHub release files, release notes must exp
 ## October 8 revised example
 
 DDD 11 around São Paulo replaces the rejected Acre example, showing municipal coverage within a state. Native Anki View zoom at 70% keeps the whole map visible, with 2 s question / 3 s answer timing. Candidate bytes are unchanged; revised copy and GIF await explicit approval. Public source push remains pending the mandatory publication-gate rollout.
+
+## Both templates — October 8
+
+The complete revised listing now shows both directions: DDD 11 → covered area, and highlighted DDD 51 area → code. Each uses native workbench front/answer captures, full-map 70% View zoom, and 2+3 second timing. Candidate bytes are unchanged. Both GIFs and revised complete copy await explicit approval.

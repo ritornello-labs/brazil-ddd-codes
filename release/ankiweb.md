@@ -14,9 +14,19 @@ Learn Brazil's [DDD telephone area codes](https://en.wikipedia.org/wiki/Telephon
 
 ## See it in Anki
 
+### Code → area
+
 ![Recall and reveal the geographical coverage of Brazilian DDD 11](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/map.gif)
 
-The example reveals DDD 11's coverage around São Paulo. Maps are generated reproducibly from public source data; map provenance and the build workflow are documented in the repository.
+The first example reveals DDD 11's coverage around São Paulo.
+
+### Highlighted area → code
+
+![Identify the code from the highlighted municipal coverage, then reveal DDD 51](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/reverse.gif)
+
+The second example asks you to identify DDD 51 from its highlighted coverage. Both GIFs show the question for two seconds and the answer for three.
+
+Maps are generated reproducibly from public source data; map provenance and the build workflow are documented in the repository.
 
 GitHub: [https://github.com/ritornello-labs/brazil-ddd-codes](https://github.com/ritornello-labs/brazil-ddd-codes)
 
