@@ -280,6 +280,14 @@ def shared_css() -> str:
   font-size:24px;
   color:var(--copper);
 }
+
+/* Keep the page gradient continuous beneath short and long cards. */
+.card {
+  margin: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
 """
 
 
