@@ -14,9 +14,9 @@ Learn Brazil's [DDD telephone area codes](https://en.wikipedia.org/wiki/Telephon
 
 ## See it in Anki
 
-![Recall and reveal the geographical coverage of Brazilian DDD 68](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/map.gif)
+![Recall and reveal the geographical coverage of Brazilian DDD 11](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/map.gif)
 
-The example reveals DDD 68's coverage in Acre. Maps are generated reproducibly from public source data; map provenance and the build workflow are documented in the repository.
+The example reveals DDD 11's coverage around São Paulo. Maps are generated reproducibly from public source data; map provenance and the build workflow are documented in the repository.
 
 GitHub: [https://github.com/ritornello-labs/brazil-ddd-codes](https://github.com/ritornello-labs/brazil-ddd-codes)
 
