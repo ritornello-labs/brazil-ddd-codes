@@ -1,4 +1,6 @@
-# brazil-ddd-codes
+# Brazilian DDD Codes
+
+[Explore all Ritornello decks and add-ons](https://ritornello.dev/).
 
 [![Anki Workbench](https://github.com/ritornello-labs/brazil-ddd-codes/actions/workflows/anki-workbench.yml/badge.svg)](https://github.com/ritornello-labs/brazil-ddd-codes/actions/workflows/anki-workbench.yml)
 [![AnkiWeb](https://img.shields.io/badge/AnkiWeb-shared_deck-15a5ef)](https://ankiweb.net/shared/info/1860702413)
@@ -7,11 +9,15 @@
 
 An Anki deck generator workspace for Brazil's `DDD` telephone area codes, with an emphasis on map-based recognition cards and reproducible media generation.
 
-![Recall DDD 68 from a blank municipal map](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-01.png)
+**67 notes · 134 cards.** Two templates practise code-to-area and highlighted-area-to-code recall.
 
-![Reveal the DDD 68 coverage area](https://ritornello.dev/media/ankiweb/2026-08-06-v4/brazil-ddd-codes/gallery-02.png)
+![Reveal DDD 11's coverage around São Paulo](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/map.gif)
+
+![Identify DDD 51 from its highlighted coverage](https://ritornello.dev/media/ankiweb/2026-10-07-v7/brazil-ddd-codes/reverse.gif)
 
 [Browse both card templates on Ritornello](https://ritornello.dev/#brazilian-ddd-codes)
+
+Download the archived `.apkg` from the [latest tagged GitHub release](https://github.com/ritornello-labs/brazil-ddd-codes/releases/latest).
 
 ## Download
 
